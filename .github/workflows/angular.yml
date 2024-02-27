@@ -49,7 +49,7 @@ jobs:
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
-          build_dir: dist/
+          build_dir: dist/smart-energy-git
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
