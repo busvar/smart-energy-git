@@ -37,6 +37,14 @@ jobs:
       - name: Build App
         run: npm run build:prod
 
+      # Route File renaming
+      - name: Rename Route File
+        run: cp dist/smart-energy-git/index.html dist/smart-energy-git/404.html
+
+      # Add .nojekyll file
+      - name: Add .nojekyll
+        run: touch dist/smart-energy-git/.nojekyll
+
       # Deploy
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v4.0.0
