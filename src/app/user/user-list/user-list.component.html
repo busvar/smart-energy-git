@@ -4,7 +4,7 @@
       <mat-icon>person</mat-icon>
       <div> {{ user.name + " " + user.surname }}</div>
       <div>
-        <a [routerLink]="['user', user.id]"> {{ "Details Path: " + user.path }} </a>
+        <a [routerLink]="['/user', user.id ]" [queryParams]="{path: user.path}"> {{ "Details Path: " + user.path }} </a>
       </div>
     </div>
 </div>
