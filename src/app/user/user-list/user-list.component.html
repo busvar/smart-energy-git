@@ -2,8 +2,7 @@
   <h1>User List</h1>
     <div *ngFor="let user of users" class="display-horizontally">
       <mat-icon>person</mat-icon>
-      <div> {{ "Name: " + user.name }}</div>
-      <div> {{ ", Surname: " + user.surname }} </div>
+      <div> {{ user.name + " " + user.surname }}</div>
       <div>
         <a [routerLink]="['user', user.id]"> {{ "Details Path: " + user.path }} </a>
       </div>
