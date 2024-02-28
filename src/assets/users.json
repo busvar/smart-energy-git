@@ -1,6 +1,7 @@
 {
   "users": [
     {"id": 1, "name": "José Ignacio", "surname": "Bustamante Vargas", "path": "jose.bustamante.md"},
-    {"id": 2, "name": "Domingo", "surname": "de la Mata", "path": "domingo.de.la.mata.md"}
+    {"id": 2, "name": "Domingo", "surname": "de la Mata", "path": "domingo.de.la.mata.md"},
+    {"id": 3, "name": "Santiago", "surname": "Venegas", "path": "santiago.venegas.md"}
   ]
 }
